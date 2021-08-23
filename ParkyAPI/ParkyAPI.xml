@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParkyAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ParkyAPI.Controllers.NationalParkController.GetNationalParks">
+            <summary>
+            Get List of All National Parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalParkController.GetNationalPark(System.Int32)">
+            <summary>
+            Get Individual National Park
+            </summary>
+            <param name="nationalParkId">The Id of National Park</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalParkV2Controller.GetNationalParks">
+            <summary>
+            Get List of All National Parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.GetTrails">
+            <summary>
+            Get List of All Trails
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.GetTrail(System.Int32)">
+            <summary>
+            Get Individual Trail
+            </summary>
+            <param name="trailId">The Id of Trail</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.GetTrailsNationalPark(System.Int32)">
+            <summary>
+            Get Trails in Individual National Park
+            </summary>
+            <param name="nationalParkId">The Id of National Park</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
